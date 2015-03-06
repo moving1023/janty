@@ -25,4 +25,42 @@
 		</shiro:user>
 		</h1>
 	</div>
+	<!-- 
+	<div id="menu">
+		<ul>
+			<li>
+				主菜单1
+			</li>
+			<li>
+				主菜单2
+			</li>
+			<li>
+				主菜单3
+			</li>
+		</ul>
+	</div>
+	 -->
+	<nav class="navbar navbar-default" role="navigation">
+	   <div id="menu">
+	      <ul class="nav navbar-nav">
+	         <li class="active"><a href="#">系统管理</a></li>
+	         <li><a href="#">基础资料管理</a></li>
+	         <li class="dropdown">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+	              	 报表管理 
+	               <b class="caret"></b>
+	            </a>
+	            <ul class="dropdown-menu">
+	               <li><a href="#">jmeter</a></li>
+	               <li><a href="#">EJB</a></li>
+	               <li><a href="#">Jasper Report</a></li>
+	               <li class="divider"></li>
+	               <li><a href="#">分离的链接</a></li>
+	               <li class="divider"></li>
+	               <li><a href="#">另一个分离的链接</a></li>
+	            </ul>
+	         </li>
+	      </ul>
+	   </div>
+	</nav>
 </div>
